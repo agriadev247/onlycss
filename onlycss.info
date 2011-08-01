@@ -1,0 +1,9 @@
+name = onlyCSS
+description = A theme contains only CSS changes to the Drupal base theming system.
+core = 7.x
+stylesheets[all][] = style.css
+
+regions[header] = Header
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[footer] = Footer
