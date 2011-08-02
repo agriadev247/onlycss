@@ -145,13 +145,18 @@ p {
 }
 
 /* LANGUAGE BLOCK */
+
 #block-locale-language {
+    text-align: center;
+}
+
+#header #block-locale-language {
     position: absolute;
     top: 50px;
     right: 50px;
 }
 
-#block-locale-language h2 {
+#header #block-locale-language h2 {
     display: none;
 }
 
@@ -175,21 +180,12 @@ p {
 }
 
 /* SEARCH BLOCK */
-#block-search-form {
-    position: absolute;
-    bottom: 8px;
-    right: 50px;
-    width: 210px;
-    display: inline;
-    vertical-align: middle;
-    text-align: right;
-}
-
 #block-search-form input[type="text"] {
     border: 1px solid #ddd;
-    width: 130px;
+    width: 98px;
     padding: 3px;
-    background: none;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.65);
     font-size: 1.2em;
 }
 
@@ -204,6 +200,21 @@ p {
     font-size: 1.2em;
     font-weight: bold;
     line-height: 1.4em !important;
+}
+
+#header #block-search-form {
+    position: absolute;
+    bottom: 8px;
+    right: 50px;
+    width: 210px;
+    display: inline;
+    vertical-align: middle;
+    text-align: right;
+}
+
+#header #block-search-form input[type="text"] {
+    width: 130px;
+    background: none;
 }
 
 /* MESSAGES */
