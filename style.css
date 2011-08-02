@@ -227,25 +227,32 @@ div.messages {
     margin: 15px 50px;
 }
 
-/* SIDEBAR FIRST */
-#sidebar-first {
+/* SIDEBAR FIRST, SIDEBAR SECOND */
+#sidebar-first,
+#sidebar-second {
     float: left;
     width: 200px;
     margin: 0 0 0 50px;
 }
 
-#sidebar-first ul li {
+#sidebar-first ul li,
+#sidebar-second ul li {
     padding: 3px;
 }
 
 #sidebar-first ul a:link,
 #sidebar-first ul a:visited,
 #sidebar-first ul a:hover,
-#sidebar-first ul a:active {
+#sidebar-first ul a:active,
+#sidebar-second ul a:link,
+#sidebar-second ul a:visited,
+#sidebar-second ul a:hover,
+#sidebar-second ul a:active {
     border: none;
 }
 
-#sidebar-first .block {
+#sidebar-first .block,
+#sidebar-second .block {
     border: 1px solid #ddd;
     margin-bottom: 20px;
     color: #a60800;
@@ -253,14 +260,16 @@ div.messages {
     background-color: rgba(0,0,0,0.07);
 }
 
-#sidebar-first .block h2 {
+#sidebar-first .block h2,
+#sidebar-second .block h2 {
     margin: 0 5px 10px 5px;
     padding: 3px;
     border-bottom: 1px solid #a60800;
     text-align: center;
 }
 
-#sidebar-first .block .content {
+#sidebar-first .block .content,
+#sidebar-second .block .content {
     margin: 10px;
 }
 
@@ -282,7 +291,15 @@ ul li.leaf {
     padding: 5px;
     color: #a60800;
     border: 1px solid #a60800;
-    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
+}
+
+/* HELP */
+.region-help {
+    padding: 5px;
+    color: #f35b00;
+    border: 1px solid #f35b00;
+    margin-bottom: 20px;
 }
 
 /* CONTENT */
